@@ -1,10 +1,10 @@
-# Mushket Mobile Objective-C Style Guide
+# Weelorum Objective-C Style Guide
 
 You should also check out our other style guides too:
 
-* [Swift](https://github.com/MushketMobile/Mushket-Mobile-Swift-Style-Guide)
-* [Kotlin](https://github.com/MushketMobile/Mushket-Mobile-Kotlin-Style-Guide)
-* [Java](https://github.com/MushketMobile/Mushket-Mobile-Java-Style-Guide)
+* [Swift](https://github.com/Weelorum/Weelorum-Swift-Style-Guide)
+* [Kotlin](https://github.com/Weelorum/Weelorum-Kotlin-Style-Guide)
+* [Java](https://github.com/Weelorum/Weelorum-Java-Style-Guide)
 
 
 ## Table of Contents
@@ -41,7 +41,7 @@ You should also check out our other style guides too:
 * [Compile and Dependencies](#compile-and-dependencies)
 * [Distribution](#distribution)
 * [Localization](#localization)
-* [About Mushket Mobile](#about-mushket-mobile)
+* [About Weelorum](#about-weelorum)
 
 ## Language
 
@@ -400,7 +400,7 @@ Constants are preferred over in-line string literals or numbers, as they allow f
 **Preferred:**
 
 ```objc
-static NSString * const kMMAboutViewControllerCompanyName = @"mushketmobile.com";
+static NSString * const kMMAboutViewControllerCompanyName = @"www.weelorum.com";
 
 static CGFloat const kMMImageThumbnailHeight = 50.0;
 ```
@@ -408,7 +408,7 @@ static CGFloat const kMMImageThumbnailHeight = 50.0;
 **Not Preferred:**
 
 ```objc
-#define CompanyName @"mushketmobile.com"
+#define CompanyName @"www.weelorum.com"
 
 #define thumbnailHeight 2
 ```
@@ -766,12 +766,12 @@ Do not use emoji in your projects. For those readers who actually type in their 
 
 ## Organization, Bundle Identifier and Folders
 
-Where an Xcode project is involved, the organization should be set to `Mushket Mobile` and the Bundle Identifier set to `com.mushketmobile.ProjectName` where `ProjectName` is the name of the project.
+Where an Xcode project is involved, the organization should be set to `Weelorum` and the Bundle Identifier set to `com.weelorum.ProjectName` where `ProjectName` is the name of the project.
 
 ![Xcode Project settings](screens/project_settings.png)
 
 **Folder structure**
-All classes must to have self folder. For each project need to use internal pod `MushketMobileKit`. For save your time also use ready templates to create folder structures with classes and methods.
+All classes must to have self folder. For each project need to use internal pod `WeelorumKit`. For save your time also use ready templates to create folder structures with classes and methods.
 * Documentation
 * Headers
 * iOS
@@ -831,14 +831,14 @@ Make sure that you have folders for each language with `Localizable.strings` fil
 
 For right now there is no support for localizing from xibs directly, because we dont want to include meaningless strings into translation (like "Label" "Text" and etc.). 
 
-## About Mushket Mobile
+## About Weelorum
 
-[<img src="https://mushketmobile.com/wp-content/uploads/2018/11/logo.png" alt="mushketmobile.com">][mushketmobile]
+[<img src="https://www.weelorum.com/wp-content/uploads/2018/11/logo.png" alt="www.weelorum.com">][weelorum]
 
-NEWPROJECT are maintained by Mushket Mobile. We specialize in providing all-in-one solution in mobile and web development. Our team follows Lean principles and works according to agile methodologies to deliver the best results reducing the budget for development and its timeline. 
+NEWPROJECT are maintained by Weelorum. We specialize in providing all-in-one solution in mobile and web development. Our team follows Lean principles and works according to agile methodologies to deliver the best results reducing the budget for development and its timeline. 
 
-Find out more [here][mushketmobile] and don't hesitate to [contact us][contact]!
+Find out more [here][weelorum] and don't hesitate to [contact us][contact]!
 
-[mushketmobile]: https://mushketmobile.com
-[contact]: https://mushketmobile.com
+[weelorum]: https://www.weelorum.com
+[contact]: https://www.weelorum.com
 
